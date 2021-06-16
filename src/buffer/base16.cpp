@@ -3,6 +3,7 @@
 //#include "base16/decoder.h"
 
 Buffer::Base16::Base16(const std::string& data) : Buffer::AbstractBuffer(data) {}
+Buffer::Base16::Base16() : Buffer::AbstractBuffer("") {}
 
 //Buffer::Base16::Base16(Base16& obj) : AbstractBuffer(obj.getBufferData()) {}
 

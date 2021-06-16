@@ -17,7 +17,7 @@ class Base16 : public Buffer::AbstractBuffer
 {
    // TODO:: {JUST IN CASE} CPPBase16::Decoder *m_decoder;
    public:
-   Base16() = default;
+   Base16();
 
    Base16(const std::string& data);    // check required
    std::string validatedDataTypeValue(const std::string& data) override;
